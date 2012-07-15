@@ -62,9 +62,8 @@ BOARD_USES_ALSA_AUDIO := true
 TARGET_USES_ION_AUDIO := true
 TARGET_USES_QCOM_LPA := true
 
-# Bluetooth
-BOARD_HAVE_BLUETOOTH := true
-TARGET_CUSTOM_BLUEDROID := ../../../device/htc/msm8960-common/bluetooth/bluetooth.c
+# BluetoothBOARD_HAVE_BLUETOOTH := true
+# TARGET_CUSTOM_BLUEDROID := ../../../device/htc/msm8960-common/bluetooth/bluetooth.c
 
 # FM radio
 #BOARD_HAVE_FM_RADIO := true
@@ -84,10 +83,11 @@ TARGET_USES_OVERLAY := true
 BOARD_EGL_CFG := device/htc/msm8960-common/configs/egl.cfg
 
 # Wifi
-WPA_SUPPLICANT_VERSION           := VER_0_8_X
-BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
-BOARD_HOSTAPD_DRIVER             := NL80211
-BOARD_WLAN_DEVICE                := qcwcn
+#WPA_SUPPLICANT_VERSION           := VER_0_8_X
+#BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
+#BOARD_HOSTAPD_DRIVER             := NL80211
+#BOARD_WLAN_DEVICE                := qcwcn
+
 
 # Webkit
 ENABLE_WEBGL := true
